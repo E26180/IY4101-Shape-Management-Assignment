@@ -1,41 +1,45 @@
-# IY4101 Shape Management Assignment
+# Java Shape Management System
 
-This repository contains my Java source code for the IY4101 Object Oriented Programming practical assignment.
+A console-based Java application for creating and managing geometric shapes. The project applies core object-oriented programming concepts through a polymorphic class hierarchy and a menu-driven interface.
 
-## Project description
+## Features
 
-This project is a console-based Java application for managing geometrical shapes. The program allows the user to add, remove, display, translate and scale shapes. It can also calculate the area and perimeter of selected shapes.
+- Add and remove shapes from a managed collection
+- Display stored shapes and their properties
+- Translate shapes using coordinate values
+- Scale supported shapes
+- Calculate area and perimeter
+- Work with rectangles, squares, circles and triangles
 
-The assignment focuses on core Object-Oriented Programming concepts such as classes, objects, inheritance, abstraction, overriding and polymorphism.
+## Object-oriented design
+
+The implementation demonstrates:
+
+- Classes and objects
+- Abstraction through the `Shape` base class
+- Inheritance across the shape hierarchy
+- Method overriding and runtime polymorphism
+- Encapsulation of shape data and behaviour
+- `ArrayList` for managing multiple shape objects
 
 ## Main classes
 
-- Coordinates
-- Shape
-- Rectangle
-- Square
-- Circle
-- Triangle
-- ShapeList
-- ShapeManagement
+- `Coordinates`
+- `Shape`
+- `Rectangle`
+- `Square`
+- `Circle`
+- `Triangle`
+- `ShapeList`
+- `ShapeManagement`
 
-## How to run
+## Run locally
 
-Open the source files in IntelliJ IDEA or another Java IDE.
+1. Open the source files in IntelliJ IDEA or another Java IDE.
+2. Compile the project.
+3. Run `ShapeManagement.java`.
+4. Use the console menu to add, transform, inspect and remove shapes.
 
-Run the main class:
+## Learning outcomes
 
-```text
-ShapeManagement.java
-```
-
-The program will open a console menu where the user can manage the list of shapes.
-
-## Notes
-
-The project was developed and tested locally in IntelliJ IDEA before submission. The source files were uploaded to GitHub so that the implementation could be stored and reviewed.
-
-## Student
-
-Ahmet Ege Baykoz  
-Student ID: 303068470
+This project strengthened my understanding of Java class design, inheritance, abstraction, polymorphism, collections and the separation of data from user-interface logic.
